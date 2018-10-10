@@ -1,0 +1,47 @@
+/*!
+ * Start Bootstrap - 4 Col Portfolio HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.navbar-inverse {
+    background-color: RGBA(26, 85, 98, 0.7);
+    border-color: #A8AEC3;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #f3f99a;
+}
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: rgba(41, 96, 92, 0.73);
+    border-color: #337ab7;
+}
+.pagination > li > a, .pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: rgba(56, 83, 102, 0.92);
+    text-decoration: none;
+    background-color: #ecebc2;
+    border: 1px solid #ccb1b1;
+}
+.navbar-inverse .navbar-brand {
+    color: #64ff66;
+}
